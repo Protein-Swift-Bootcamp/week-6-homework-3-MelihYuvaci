@@ -21,9 +21,6 @@ class CategoryVC: UIViewController {
         tableView.register(UINib(nibName: "CategoryCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
         
     }
-    
-  
-    
 
 }
 
@@ -49,6 +46,7 @@ extension CategoryVC: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if let vc = storyboard?.instantiateViewController(withIdentifier: "FeedVC") as? FeedVC{
+            vc.category = categoriesArray[indexPath.row]
             navigationController?.pushViewController(vc, animated: true)
         }
     }

@@ -17,6 +17,9 @@
 		29A57F14296CEA800063C2DB /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A57F13296CEA800063C2DB /* DetailVC.swift */; };
 		29C2C6DE296D80840080FC09 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C2C6DC296D80840080FC09 /* CategoryCell.swift */; };
 		29C2C6DF296D80840080FC09 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29C2C6DD296D80840080FC09 /* CategoryCell.xib */; };
+		29C2C6E1296DAEBB0080FC09 /* FeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C2C6E0296DAEBB0080FC09 /* FeedData.swift */; };
+		29C2C6E3296DAED20080FC09 /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C2C6E2296DAED20080FC09 /* FeedManager.swift */; };
+		29C2C6E5296DAEF10080FC09 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C2C6E4296DAEF10080FC09 /* FeedModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		29A57F13296CEA800063C2DB /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		29C2C6DC296D80840080FC09 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		29C2C6DD296D80840080FC09 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		29C2C6E0296DAEBB0080FC09 /* FeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedData.swift; sourceTree = "<group>"; };
+		29C2C6E2296DAED20080FC09 /* FeedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedManager.swift; sourceTree = "<group>"; };
+		29C2C6E4296DAEF10080FC09 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +128,10 @@
 		29A57F0B296CE3D10063C2DB /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				29C2C6E0296DAEBB0080FC09 /* FeedData.swift */,
 				29A57F11296CEA700063C2DB /* FeedVC.swift */,
+				29C2C6E2296DAED20080FC09 /* FeedManager.swift */,
+				29C2C6E4296DAEF10080FC09 /* FeedModel.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -208,8 +217,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				29A57F14296CEA800063C2DB /* DetailVC.swift in Sources */,
+				29C2C6E5296DAEF10080FC09 /* FeedModel.swift in Sources */,
 				29A57F12296CEA700063C2DB /* FeedVC.swift in Sources */,
 				29A57EF7296CE2330063C2DB /* CategoryVC.swift in Sources */,
+				29C2C6E3296DAED20080FC09 /* FeedManager.swift in Sources */,
+				29C2C6E1296DAEBB0080FC09 /* FeedData.swift in Sources */,
 				29A57EF3296CE2330063C2DB /* AppDelegate.swift in Sources */,
 				29A57EF5296CE2330063C2DB /* SceneDelegate.swift in Sources */,
 				29C2C6DE296D80840080FC09 /* CategoryCell.swift in Sources */,

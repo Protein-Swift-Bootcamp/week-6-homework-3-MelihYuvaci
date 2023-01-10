@@ -8,22 +8,18 @@
 import UIKit
 
 class FeedVC: UIViewController {
+    
+    var feedManager = FeedManager()
+    var category : String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        if category != "" {
+            navigationItem.title = category!
+            feedManager.fetchFeeds(category: category!)
+        }
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
