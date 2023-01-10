@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29436065296E15C800A21F5E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29436063296E15C800A21F5E /* FeedCell.swift */; };
+		29436066296E15C800A21F5E /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29436064296E15C800A21F5E /* FeedCell.xib */; };
 		29A57EF3296CE2330063C2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A57EF2296CE2330063C2DB /* AppDelegate.swift */; };
 		29A57EF5296CE2330063C2DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A57EF4296CE2330063C2DB /* SceneDelegate.swift */; };
 		29A57EF7296CE2330063C2DB /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A57EF6296CE2330063C2DB /* CategoryVC.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29436063296E15C800A21F5E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		29436064296E15C800A21F5E /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedCell.xib; path = ../Scenes/Feed/FeedCell.xib; sourceTree = "<group>"; };
 		29A57EEF296CE2330063C2DB /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29A57EF2296CE2330063C2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29A57EF4296CE2330063C2DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,7 @@
 			children = (
 				29A57EF8296CE2330063C2DB /* Main.storyboard */,
 				29C2C6DD296D80840080FC09 /* CategoryCell.xib */,
+				29436064296E15C800A21F5E /* FeedCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				29A57F11296CEA700063C2DB /* FeedVC.swift */,
 				29C2C6E2296DAED20080FC09 /* FeedManager.swift */,
 				29C2C6E4296DAEF10080FC09 /* FeedModel.swift */,
+				29436063296E15C800A21F5E /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 				29A57EFC296CE2340063C2DB /* Assets.xcassets in Resources */,
 				29A57EFA296CE2330063C2DB /* Main.storyboard in Resources */,
 				29C2C6DF296D80840080FC09 /* CategoryCell.xib in Resources */,
+				29436066296E15C800A21F5E /* FeedCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29A57F14296CEA800063C2DB /* DetailVC.swift in Sources */,
+				29436065296E15C800A21F5E /* FeedCell.swift in Sources */,
 				29C2C6E5296DAEF10080FC09 /* FeedModel.swift in Sources */,
 				29A57F12296CEA700063C2DB /* FeedVC.swift in Sources */,
 				29A57EF7296CE2330063C2DB /* CategoryVC.swift in Sources */,

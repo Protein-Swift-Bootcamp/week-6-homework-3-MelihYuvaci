@@ -18,7 +18,7 @@ class CategoryVC: UIViewController {
 
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(UINib(nibName: "CategoryCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
+        tableView.register(UINib(nibName: "CategoryCell", bundle: nil), forCellReuseIdentifier: "ReusableCategoryCell")
         
     }
 
@@ -33,7 +33,7 @@ extension CategoryVC :UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell",for: indexPath) as! CategoryCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCategoryCell",for: indexPath) as! CategoryCell
         cell.label.text = categoriesArray[indexPath.row]
         return cell
     }

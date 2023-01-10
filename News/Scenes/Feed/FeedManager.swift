@@ -34,7 +34,6 @@ class FeedManager {
                 }
                 if let safeData = data {
                     if let feeds = self.parseJson(safeData){
-                        print(feeds)
                         self.delegate?.didUpdateFeeds(self, feeds: feeds)
                     }
                 }
