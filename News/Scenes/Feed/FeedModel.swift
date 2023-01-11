@@ -11,7 +11,6 @@ struct FeedModel {
     let category : String
     let author : String
     let content : String
-    let date : DateEnum
     let imageUrl : String
     let readMoreUrl : String
     let time: String

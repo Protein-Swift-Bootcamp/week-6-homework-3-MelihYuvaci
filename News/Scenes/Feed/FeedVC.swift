@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class FeedVC: UIViewController {
     
@@ -46,6 +47,7 @@ extension FeedVC: UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ReusableFeedCell", for: indexPath) as! FeedCell
         cell.titleLabel.text = feeds[indexPath.row].author
+        cell.imageView.kf.setImage(with: URL(string: feeds[indexPath.row].imageUrl))
         return cell
     }
     

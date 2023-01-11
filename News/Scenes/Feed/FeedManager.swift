@@ -50,12 +50,12 @@ class FeedManager {
             for each in decodedData.data {
                 let author = each.author
                 let content = each.content
-                let date = each.date
+//                let date = each.date
                 let imageUrl = each.imageURL
                 let readMoreUrl = each.readMoreURL
                 let time = each.time
                 let title = each.title
-                feedsArray.append(FeedModel(category: category, author: author, content: content, date: date, imageUrl: imageUrl, readMoreUrl: readMoreUrl ?? "", time: time, title: title))
+                feedsArray.append(FeedModel(category: category, author: author, content: content, imageUrl: imageUrl, readMoreUrl: readMoreUrl ?? "", time: time, title: title))
             }
             return feedsArray
         }catch{

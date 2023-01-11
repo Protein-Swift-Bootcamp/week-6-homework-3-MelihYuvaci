@@ -14,7 +14,6 @@ struct FeedData : Codable{
 }
 struct Datum: Codable {
     let author, content: String
-    let date: DateEnum
     let id: String
     let imageURL: String
     let readMoreURL: String?
@@ -22,13 +21,10 @@ struct Datum: Codable {
     let url: String
 
     enum CodingKeys: String, CodingKey {
-        case author, content, date, id
+        case author, content,id
         case imageURL = "imageUrl"
         case readMoreURL = "readMoreUrl"
         case time, title, url
     }
 }
 
-enum DateEnum: String, Codable {
-    case the10Jan2023Tuesday = "10 Jan 2023,Tuesday"
-}
