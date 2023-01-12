@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29376DE629704DCE0071DBD1 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29376DE529704DCE0071DBD1 /* PinterestLayout.swift */; };
 		29436065296E15C800A21F5E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29436063296E15C800A21F5E /* FeedCell.swift */; };
 		29436066296E15C800A21F5E /* FeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29436064296E15C800A21F5E /* FeedCell.xib */; };
 		29A57EF3296CE2330063C2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A57EF2296CE2330063C2DB /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29376DE529704DCE0071DBD1 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		29436063296E15C800A21F5E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		29436064296E15C800A21F5E /* FeedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FeedCell.xib; path = ../Scenes/Feed/FeedCell.xib; sourceTree = "<group>"; };
 		29A57EEF296CE2330063C2DB /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +147,7 @@
 				29C2C6E2296DAED20080FC09 /* FeedManager.swift */,
 				29C2C6E4296DAEF10080FC09 /* FeedModel.swift */,
 				29436063296E15C800A21F5E /* FeedCell.swift */,
+				29376DE529704DCE0071DBD1 /* PinterestLayout.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -171,7 +174,6 @@
 				DEC9D7A50045A9F3CD1C723C /* Pods-News.debug.xcconfig */,
 				F6B9B8763FFB64513611F816 /* Pods-News.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -299,6 +301,7 @@
 				29A57EF7296CE2330063C2DB /* CategoryVC.swift in Sources */,
 				29C2C6E3296DAED20080FC09 /* FeedManager.swift in Sources */,
 				29C2C6E1296DAEBB0080FC09 /* FeedData.swift in Sources */,
+				29376DE629704DCE0071DBD1 /* PinterestLayout.swift in Sources */,
 				29A57EF3296CE2330063C2DB /* AppDelegate.swift in Sources */,
 				29A57EF5296CE2330063C2DB /* SceneDelegate.swift in Sources */,
 				29C2C6DE296D80840080FC09 /* CategoryCell.swift in Sources */,

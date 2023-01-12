@@ -50,7 +50,7 @@ class FeedManager {
             for each in decodedData.data {
                 let author = each.author
                 let content = each.content
-//                let date = each.date
+                //                let date = each.date
                 let imageUrl = each.imageURL
                 let readMoreUrl = each.readMoreURL
                 let time = each.time
@@ -63,6 +63,5 @@ class FeedManager {
             return nil
         }
     }
-    
 }
 
